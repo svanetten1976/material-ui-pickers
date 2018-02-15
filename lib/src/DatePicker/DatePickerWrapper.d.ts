@@ -5,7 +5,7 @@ import { RenderDay } from './Calendar';
 import { ModalWrapperProps } from '../wrappers/ModalWrapper';
 import { Moment } from 'moment';
 import { PickerBaseProps } from '../_shared/PickerBase'
-import { Omit } from 'material-ui'
+import { Omit } from 'material-ui-next'
 
 export interface DatePickerWrapperProps extends PickerBaseProps,
   Omit<ModalWrapperProps, 'onChange'> {

@@ -1,8 +1,8 @@
 import { ComponentClass, ReactNode } from 'react';
 import { DateType } from '../constants/prop-types';
 import { Utils } from '../utils/utils';
-import { DialogProps } from 'material-ui/Dialog';
-import { ButtonProps } from 'material-ui/Button';
+import { DialogProps } from 'material-ui-next/Dialog';
+import { ButtonProps } from 'material-ui-next/Button';
 
 export interface DateTextFieldProps extends DialogProps {
   onAccept: ButtonProps['onClick'];

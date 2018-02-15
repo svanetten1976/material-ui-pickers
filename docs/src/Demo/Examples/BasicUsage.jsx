@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import moment from 'moment';
-import { Typography } from 'material-ui';
-import { TimePicker, DatePicker } from 'material-ui-pickers';
+import { Typography } from 'material-ui-next';
+import { TimePicker, DatePicker } from 'material-ui-next-pickers';
 
 export default class BasicUsage extends Component {
   state = {

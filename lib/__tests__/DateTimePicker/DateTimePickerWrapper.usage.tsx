@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Fragment, Component } from 'react';
-import { IconButton, Typography, Icon } from 'material-ui';
-import InputAdornment  from 'material-ui/Input/InputAdornment';
+import { IconButton, Typography, Icon } from 'material-ui-next';
+import InputAdornment  from 'material-ui-next/Input/InputAdornment';
 import DateTimePickerWrapper  from '../../src/DateTimePicker/DateTimePickerWrapper';
 import * as classNames from 'classnames'
 import { Moment } from 'moment'

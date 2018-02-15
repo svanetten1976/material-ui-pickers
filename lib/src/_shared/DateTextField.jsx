@@ -2,11 +2,11 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-import Icon from 'material-ui/Icon';
-import InputAdornment from 'material-ui/Input/InputAdornment';
-import TextField from 'material-ui/TextField';
-import IconButton from 'material-ui/IconButton';
-import withStyles from 'material-ui/styles/withStyles';
+import Icon from 'material-ui-next/Icon';
+import InputAdornment from 'material-ui-next/Input/InputAdornment';
+import TextField from 'material-ui-next/TextField';
+import IconButton from 'material-ui-next/IconButton';
+import withStyles from 'material-ui-next/styles/withStyles';
 
 import DomainPropTypes from '../constants/prop-types';
 import MaskedInput from './MaskedInput';

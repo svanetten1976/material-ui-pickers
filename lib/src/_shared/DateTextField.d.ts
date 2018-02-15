@@ -1,7 +1,7 @@
 import { ComponentClass, ReactNode } from 'react';
 import { DateType } from '../constants/prop-types'
-import { TextFieldProps } from 'material-ui/TextField';
-import { Omit } from 'material-ui'
+import { TextFieldProps } from 'material-ui-next/TextField';
+import { Omit } from 'material-ui-next'
 import { Moment } from 'moment'
 
 export interface DateTextFieldProps extends Omit<TextFieldProps, 'onChange' | 'value'> {

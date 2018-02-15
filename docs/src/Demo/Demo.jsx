@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { AppBar, Toolbar, IconButton, Icon, Typography, withStyles, Button, Tooltip } from 'material-ui';
+import { AppBar, Toolbar, IconButton, Icon, Typography, withStyles, Button, Tooltip } from 'material-ui-next';
 
 import Github from './components/GithubIcon';
 import SourcablePanel from './components/SourcablePanel';

@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import moment from 'moment';
 import jMoment from 'moment-jalaali';
-import { Typography } from 'material-ui';
-import { TimePicker, DateTimePicker, DatePicker } from 'material-ui-pickers';
-import jalaliUtils from 'material-ui-pickers-jalali-utils';
+import { Typography } from 'material-ui-next';
+import { TimePicker, DateTimePicker, DatePicker } from 'material-ui-next-pickers';
+import jalaliUtils from 'material-ui-next-pickers-jalali-utils';
 
 jMoment.loadPersian({ dialect: 'persian-modern', usePersianDigits: true });
 

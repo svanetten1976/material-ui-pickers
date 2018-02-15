@@ -31,7 +31,7 @@ If you dont want to use icon font, or you are already use `material-ui-icons` yo
 Here is a quick example of how to use this package
 
 ```jsx
-import { TimePicker, DatePicker, DateTimePicker } from 'material-ui-pickers'
+import { TimePicker, DatePicker, DateTimePicker } from 'material-ui-next-pickers'
 
 class App extends Component {
   state = {
@@ -195,8 +195,8 @@ npm install material-ui-pickers-jalali-utils
 ```
 
 ```jsx
-import { TimePicker, DateTimePicker, DatePicker } from 'material-ui-pickers';
-import jalaliUtils from 'material-ui-pickers-jalali-utils';
+import { TimePicker, DateTimePicker, DatePicker } from 'material-ui-next-pickers';
+import jalaliUtils from 'material-ui-next-pickers-jalali-utils';
 
 jMoment.loadPersian({ dialect: 'persian-modern', usePersianDigits: true });
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'material-ui/styles/withStyles';
-import withTheme from 'material-ui/styles/withTheme';
-import Paper from 'material-ui/Paper';
-import Tabs from 'material-ui/Tabs';
-import Tab from 'material-ui/Tabs/Tab';
-import Icon from 'material-ui/Icon';
+import withStyles from 'material-ui-next/styles/withStyles';
+import withTheme from 'material-ui-next/styles/withTheme';
+import Paper from 'material-ui-next/Paper';
+import Tabs from 'material-ui-next/Tabs';
+import Tab from 'material-ui-next/Tabs/Tab';
+import Icon from 'material-ui-next/Icon';
 import * as viewType from '../constants/date-picker-view';
 
 const viewToTabIndex = (openView) => {

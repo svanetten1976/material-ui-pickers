@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import withStyles from 'material-ui/styles/withStyles';
-import Typography from 'material-ui/Typography';
+import withStyles from 'material-ui-next/styles/withStyles';
+import Typography from 'material-ui-next/Typography';
 
 class Year extends PureComponent {
   static propTypes = {

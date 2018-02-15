@@ -1,8 +1,8 @@
 import React, { Fragment, Component } from 'react';
 import PropTypes from 'prop-types';
-import { IconButton, Typography, withStyles } from 'material-ui';
+import { IconButton, Typography, withStyles } from 'material-ui-next';
 import classNames from 'classnames';
-import { DateTimePicker, DatePicker } from 'material-ui-pickers';
+import { DateTimePicker, DatePicker } from 'material-ui-next-pickers';
 
 class CustomElements extends Component {
   static propTypes = {

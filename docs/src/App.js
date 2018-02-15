@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui-next';
 
 import Demo from './Demo/Demo';
 import { setPrismTheme } from './utils/prism';
@@ -8,7 +8,7 @@ import { create } from 'jss';
 import preset from 'jss-preset-default';
 import rtl from 'jss-rtl';
 import JssProvider from 'react-jss/lib/JssProvider';
-import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
+import createGenerateClassName from 'material-ui-next/styles/createGenerateClassName';
 
 const jss = create({ plugins: [...preset().plugins, rtl()] });
 jss.options.createGenerateClassName = createGenerateClassName;

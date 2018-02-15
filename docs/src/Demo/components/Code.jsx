@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from 'material-ui-next/styles';
 import prism from '../../utils/prism';
 
 const anchorLinkStyle = (theme, size) => ({

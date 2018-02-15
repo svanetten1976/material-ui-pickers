@@ -2,7 +2,7 @@ import { ComponentClass } from 'react';
 import { Utils } from '../utils/utils';
 import { ModalWrapperProps } from '../wrappers/ModalWrapper';
 import { PickerBaseProps } from '../_shared/PickerBase'
-import { Omit } from 'material-ui'
+import { Omit } from 'material-ui-next'
 
 export interface TimePickerWrapperProps extends PickerBaseProps,
   Omit<ModalWrapperProps, 'onChange'> {
